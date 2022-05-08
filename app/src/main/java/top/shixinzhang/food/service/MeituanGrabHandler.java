@@ -19,13 +19,20 @@ import top.shixinzhang.food.util.Helper;
 public class MeituanGrabHandler implements GrabService.IGrabHandler {
     public final String TAG = getClass().getSimpleName();
 
+    //启动页
     public static final String PAGE_SPLASH = "com.meituan.retail.c.android.splash.SplashActivity";
+    //主页？
     public static final String PAGE_HOME = "com.meituan.retail.c.android.newhome.newmain.NewMainActivity";
+    //弹窗， 场景确定地址等
     public static final String PAGE_DIALOG = "com.meituan.retail.c.android.mrn.mrn.MallMrnModal";
+    //提交订单
     public static final String PAGE_PLACE_ORDER = "com.meituan.retail.c.android.mrn.mrn.MallMrnActivity";
+    //正在支付
     public static final String PAGE_PAYING = "com.meituan.android.cashier.activity.MTCashierActivity";
 
+    //下方的购物车栏目
     public static final String ID_TAB_CHART = "com.meituan.retail.v.android:id/img_shopping_cart";
+    //我的栏目
     public static final String ID_TAB_MINE = "com.meituan.retail.v.android:id/rl_main_mine";
 
     public static final String TEXT_SKIP_AD = "跳过";
